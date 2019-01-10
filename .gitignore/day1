@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main( void )
+{
+printf( "Welcome to C!\n" );
+}
+//*Q1 Did the program work?
+ans worked as required.
+Q2 what do you mean by void in the main function?
+ans void in the main function means that there are no parameters taken by the main function.
+  : ]
