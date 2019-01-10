@@ -8,4 +8,4 @@ printf( "Welcome to C!\n" );
 ans worked as required.
 Q2 what do you mean by void in the main function?
 ans void in the main function means that there are no parameters taken by the main function.
-  : ]
+  : ]*//
