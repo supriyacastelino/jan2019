@@ -1,0 +1,36 @@
+//area of triangle using structures
+#include <stdio.h>
+#include <stdlib.h>
+struct triangle
+{
+
+    float h;
+    float b;
+};
+    struct triangle input()
+    {
+        struct triangle t;
+        printf("enter the values of base and height of the triangle\n");
+        scanf("%f%f",&t.h,&t.b);
+        return t;
+    }
+    int compute(struct triangle t)
+    {
+        float area;
+        area=1/2*(t.b*t.h);
+        return area;
+    }
+    void output(int area)
+    {
+       printf("area of triangle= %f",area);
+    }
+int main()
+{
+   struct triangle z;//z receives the t
+   z=input();
+   float area=compute(z);
+   output(area);
+
+
+   return 0;
+}
