@@ -25,3 +25,9 @@ scanf("%d%d",&a,&b);
 sum=a+b;
 printf("sum=\n",sum);
 }
+what is a variable?
+ans  A variable is nothing but a name given to a storage area that our programs can manipulate.
+what are the types of variable?
+ans  they are char,int,float and double.
+what are the basic types of variable in c?
+ans  same as above.
